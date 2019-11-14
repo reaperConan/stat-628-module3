@@ -4443,7 +4443,10 @@ product,14.4
 teen,14.4
 trailer,14.4
 ballets,14.4
-"",14.4
+"
+
+
+",14.4
 notglass,14.4
 sett,14.4
 wisconsin,14.4
@@ -4898,7 +4901,8 @@ cuppurchase,12.0
 critics,12.0
 birdman,12.0
 groove,12.0
-"",12.0
+"
+",12.0
 uwevents,12.0
 wouldat,12.0
 lac,12.0
@@ -6229,33 +6233,59 @@ luxuries,7.2
 dealer,7.2
 puke,7.2
 awayyay,7.2
-"filmore",7.2
-"85004480",7.2
+"filmore
+
+
+
+",7.2
+"85004
+480",7.2
 3569138,7.2
 automatomated,7.2
 notfret,7.2
 ticketsee,7.2
 retale,7.2
 hoursgive,7.2
-"yay",7.2
+"yay
+
+
+
+",7.2
 ace,7.2
-"center",7.2
-"stnw",7.2
-"st",7.2
+"center
+
+
+",7.2
+"st
+nw",7.2
+"st
+
+",7.2
 85004,7.2
 480,7.2
 356,7.2
 9138,7.2
-"islocated",7.2
+"is
+
+
+
+located",7.2
 giveem,7.2
-"",7.2
-"theater",7.2
+"
+
+",7.2
+"theater
+
+",7.2
 602,7.2
 3075371press,7.2
 0,7.2
-"associate",7.2
+"associate
+
+",7.2
 565,7.2
-"85004this",7.2
+"85004
+this",7.2
 540pmsuperfly,7.2
 2018amc,7.2
 countersnacks,7.2
@@ -8223,7 +8253,8 @@ emanate,4.0
 elevatorsome,4.0
 stairsescalator,4.0
 jumper,4.0
-"town",4.0
+"town
+",4.0
 nostadium,4.0
 speech,4.0
 flea,4.0
