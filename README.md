@@ -1,4 +1,14 @@
 # Theater Advisor
-### Yuchen Zeng, Jingwen Yan, Chong Wei
+### Authors: 
+
+##### Tues - Group 9 
+
+* Jingwen Yan(jyan75@wisc.edu)
+* Yuchen Zeng
+* Chong Wei
+
+#### Introduction
+
+
 
 Shiny link: https://reaperconan.shinyapps.io/theateradvisor/
