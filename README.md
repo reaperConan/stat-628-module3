@@ -4,7 +4,7 @@
 ##### Tues - Group 9 
 
 * Jingwen Yan(jyan75@wisc.edu)
-* Yuchen Zeng
+* Yuchen Zeng(yzeng58@wisc.edu)
 * Chong Wei
 
 #### Introduction
