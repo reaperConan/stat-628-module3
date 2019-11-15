@@ -5,16 +5,32 @@
 
 * Jingwen Yan(jyan75@wisc.edu)
 * Yuchen Zeng(yzeng58@wisc.edu)
-* Chong Wei
+* Chong Wei(cwei48@wisc.edu)
 
 #### Introduction
 
-Shiny link: https://reaperconan.shinyapps.io/theateradvisor/
+Theater Advisor is a shiny application (https://reaperconan.shinyapps.io/theateradvisor/) aims for providing suggestions for theaters according to the records in yelp dataset (https://www.yelp.com/dataset/challenge). This repository contains clean data, code and other files we used during the development. We organized it by the format of files. 
 
 ### Contents:
 
-#### Folders
+#### Code
 
-#### Files
+Contains code for data processing, model establishment and shiny development.
+
+#### Data
+
+Only contains cleaned data for final analysis.
+
+#### Figures
+
+Contains relevent figures and tables.
+
+#### Presentation
+
+Contains slides for presentation.
+
+## References
+
+Joe Cheng (2014). http://shiny.rstudio.com/gallery/superzip-example.html. Superzip example.
 
 
