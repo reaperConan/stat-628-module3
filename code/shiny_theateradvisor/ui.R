@@ -22,26 +22,41 @@ navbarPage("Theater Advisor", id="nav",
                         ),
                         
                         # If not using custom CSS, set height of leafletOutput to a number instead of percent
-                        leafletOutput("map", width="50%", height="100%"),
+                        leafletOutput("map", width="70%", height="100%"),
+                        
+                        # absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
+                        #               draggable = TRUE, top = 60, left = "auto", right = 10, bottom = "auto",
+                        #               width = 780, height = "auto",
+                        #               h2("Theater Advisor"),
+                        #               splitLayout(style = "border: 1px solid silver:", cellWidths = c(375,375), 
+                        #                           plotOutput(outputId = "radarplot"),
+                        #                           plotOutput(outputId = "barplot")
+                        #               ),
+                        #               h4(htmlOutput("advisor")),
+                        #               textOutput("space"),
+                        #               textOutput("info"),
+                        #               textOutput("contact1"),textOutput("contact2") 
+                        #               # ,textInput("bus_id", "Business ID")
+                        #             
+                        # ),
                         
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
                                       draggable = TRUE, top = 60, left = "auto", right = 10, bottom = "auto",
-                                      width = 780, height = "auto",
+                                      width = 450, height = "auto",
                                       h2("Theater Advisor"),
-                                      splitLayout(style = "border: 1px solid silver:", cellWidths = c(375,375), 
-                                                  plotOutput(outputId = "radarplot"),
-                                                  plotOutput(outputId = "barplot")
-                                      ),
+                                 
+                                                plotOutput(outputId = "radarplot"),
+                                
                                       h4(htmlOutput("advisor")),
                                       textOutput("space"),
                                       textOutput("info"),
                                       textOutput("contact1"),textOutput("contact2") 
                                       # ,textInput("bus_id", "Business ID")
-                                    
+                                      
                         ),
-
+#right = 810
                         absolutePanel(id = "controls", class = "panel panel-default", fixed = TRUE,
-                                      draggable = TRUE, top = 60, left = "auto", right = 810, bottom = "auto",
+                                      draggable = TRUE, top = 60, left = "auto", right = 500, bottom = "auto",
                                       width = 300, height = "auto",
                                       
                                       h2("Theater Map"),
