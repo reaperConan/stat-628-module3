@@ -152,6 +152,9 @@ function(input, output, session) {
   output$info = renderText({ "Contact us"})
   output$contact1 = renderText({ "E-mail: yzeng58@wisc.edu"})
   output$contact2 = renderText({ "Telephone number: 608-886-6291"})
+  output$guide1 = renderUI({HTML( paste(HTML('&nbsp;'), "Search for your cinema"))})
+  output$guide2 = renderUI({HTML( paste(HTML('&nbsp;'), "Business information"))})
+  output$guide3 = renderText({"Tips: you can either find your cinema by filtering by location and rating, or input the relevant information such as business id on the top right of the table. By clicking of the blue button in the location button, the page would be redirected to the interactive map with a popup show more details about the cinema."})
   
   
 

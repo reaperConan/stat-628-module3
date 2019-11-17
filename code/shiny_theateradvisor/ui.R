@@ -59,6 +59,7 @@ navbarPage("Theater Advisor", id="nav",
            ),
            tabPanel("Theater explorer",
                     fluidRow(
+                      h1(htmlOutput("guide1")),
                       column(3,
                              selectInput("states", "States", c("All states"="", structure(state.abb, names=state.abb), "Washington, DC"="DC"), multiple=TRUE)
                       ),
@@ -73,8 +74,11 @@ navbarPage("Theater Advisor", id="nav",
                       column(1,
                              numericInput("maxScore", "Max Rating", min=1, max=5, value=5)
                       )),
+                    h4(htmlOutput("guide2")),
                     hr(),
-                    DT::dataTableOutput("theatertable")
+                  
+                    DT::dataTableOutput("theatertable"),
+                    textOutput("guide3")
            ),
           
   conditionalPanel("false", icon("crosshair"))
