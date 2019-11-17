@@ -7,6 +7,7 @@ advisor[,2] = as.character(advisor[,2])
 scale_final_score = read.csv("scale_final_score.csv")[,-1]
 scale_final_score[,1] = as.character(scale_final_score[,1])
 mean_score = apply(scale_final_score[,-1], 2, median)
+colnames(scale_final_score)[6] = "food and drink"
 
 yelp$latitude <- jitter(yelp$latitude)
 yelp$longitude <- jitter(yelp$longitude)

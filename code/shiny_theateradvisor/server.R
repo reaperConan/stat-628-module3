@@ -117,7 +117,7 @@ function(input, output, session) {
         is.null(input$states) | State %in% input$states,
         is.null(input$cities) | City %in% input$cities
       ) %>%
-      mutate(Location = paste('<a class="go-map" href="" data-lat="', Lat, '" data-long="', Long, '" data-zip="', Business_id, '"><i class="fa fa-crosshairs"></i></a>', sep=""))
+      mutate(ClickMe = paste('<a class="go-map" href="" data-lat="', Lat, '" data-long="', Long, '" data-zip="', Business_id, '"><i class="fa fa-crosshairs"></i></a>', sep=""))
     action <- DT::dataTableAjax(session, df)
     DT::datatable(df, options = list(ajax = list(url = action)), escape = FALSE)
   })
@@ -153,7 +153,7 @@ function(input, output, session) {
   output$contact1 = renderText({ "E-mail: yzeng58@wisc.edu"})
   output$contact2 = renderText({ "Telephone number: 608-886-6291"})
   output$guide1 = renderUI({HTML( paste(HTML('&nbsp;'), "Search for your cinema"))})
-  output$guide2 = renderUI({HTML( paste(HTML('&nbsp;'), "Business information"))})
+  output$guide2 = renderUI({HTML( paste(HTML('&nbsp;'), HTML("Find your business record and click the blue button on the right to check the advice and more details)")))})
   output$guide3 = renderText({"Tips: you can either find your cinema by filtering by location and rating, or input the relevant information such as business id on the top right of the table. By clicking of the blue button in the location button, the page would be redirected to the interactive map with a popup show more details about the cinema."})
   
   
@@ -212,7 +212,7 @@ function(input, output, session) {
                     #custom labels
                     vlcex=0.8 
         )
-        legend(x=1.5, y=1, legend = c("median", "cinema"), bty = "n", pch=20 , col=colors_in , text.col = "grey", cex=1.3, pt.cex=2)
+        legend(x=-1.4, y=1.2, legend = c("median", "cinema"), bty = "n", pch=20 , col=colors_in , text.col = "grey", cex=1, pt.cex=2)
       })
       output$advisor = renderUI({
         HTML(paste0(strsplit(advisor[advisor == bus_id_search, 2], '\n', fixed = TRUE)[[1]], sep = '<br/>'))
