@@ -10,6 +10,7 @@ my.scale = function(v){
   return(v/maximum)
 }
 
+# Test how to plot and save the scaled final scores of business
 scale_final_score = cbind(finalscore[1], apply(finalscore[,-1], 2, my.scale))
 write.csv(scale_final_score, "scale_final_score.csv")
 
