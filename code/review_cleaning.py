@@ -68,21 +68,5 @@ cin_tip = pd.DataFrame(dic2)
 
 cin_review.to_csv(r'C:\Users\nemow\Documents\628_module3\cinema_review.csv')
 cin_tip.to_csv(r'C:\Users\nemow\Documents\628_module3\cinema_tip.csv')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
                 
                 
