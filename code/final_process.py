@@ -478,5 +478,3 @@ final_csv.to_csv(r'C:\Users\nemow\Documents\628_module3\final_score.csv')
 
 
 
-
-
