@@ -21,9 +21,9 @@ Contains code for data processing, model establishment and shiny development.
 
 Only contains cleaned data for final analysis.
 
-#### Figures (no)
+#### Picture
 
-Contains relevent figures and tables. (Actually we do not have any figure.)
+Contains relevent figures.
 
 #### Presentation
 
@@ -31,7 +31,7 @@ Contains slides for presentation.
 
 #### Summary
 
-Contains the jupyter notebook which summarize our work.
+Contains the jupyter notebook and the summary in pdf format which summarize our work.
 
 ## References
 
